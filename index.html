@@ -1,0 +1,73 @@
+<html>
+ <head>
+   <title>Javascript Quiz</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+
+ <body>
+   <script src="javas.js"></script>
+   <h1 style="text-align:center;">Javascript Quiz</h1>
+
+   <form id="quiz" name="quiz">
+     <p>1) Inside which HTML element do we put the JavaScript?</p>
+     <input type="radio" name="q1" value="<scripting>">&lt;scripting&gt;</input><br>
+     <input type="radio" name="q1" value="<script>">&lt;script&gt;</input><br>
+
+    <p>2) The external JavaScript file must contain the script tag.</p>
+    <input type="radio" name="q2" value="False">False<br>
+    <input type="radio" name="q2" value="True">True<br>
+
+    <p>3) JavaScript is the same as Java</p>
+    <input type="radio" name="q3" value="True">True<br>
+    <input type="radio" name="q3" value="False">False<br>
+
+
+    <p>4)Where is the correct place to insert a JavaScript?</p>
+    <input type="radio" name="q4" value="The &lt;head&gt; section">The &lt;head&gt; section<br>
+    <input type="radio" name="q4" value="Both the &lt;head&gt; section and the &lt;body&gt; section are correct">Both the &lt;head&gt; section and the &lt;body&gt; section are correct<br>
+    <input type="radio" name="q4" value="">The &lt;body&gt; section<br>
+
+    <p>5) How do you declare a JavaScript variable?</p>
+    <input type="radio" name="q5" value="v carName;">v carName;<br>
+    <input type="radio" name="q5" value="var carName;">var carName;<br>
+    <input type="radio" name="q5" value="variable carName;">variable carName;<br>
+
+
+    <p>6) How do you create a function in JavaScript?</p>
+    <input type="radio" name="q6" value="function:myFunction()">function:myFunction()<br>
+    <input type="radio" name="q6" value="function myFunction()">function myFunction()<br>
+    <input type="radio" name="q6" value="function = myFunction()">function = myFunction()<br>
+
+    <p>7) How do you call a function named "myFunction"?</p>
+    <input type="radio" name="q7" value="call function myFunction()">call function myFunction()<br>
+    <input type="radio" name="q7" value="call myFunction()">call myFunction()<br>
+    <input type="radio" name="q7" value="myFunction()">myFunction()<br>
+
+    <p>8) How does a WHILE loop start?</p>
+    <input type="radio" name="q8" value="while (i <= 10)">while (i <= 10)<br>
+    <input type="radio" name="q8" value="while i = 1 to 10">while i = 1 to 10<br>
+    <input type="radio" name="q8" value="while (i <= 10; i++)">while (i <= 10; i++)<br>
+
+    <p>9) How do you round the number 7.25, to the nearest integer?</p>
+    <input type="radio" name="q9" value="rnd(7.25)">rnd(7.25)<br>
+    <input type="radio" name="q9" value="Math.round(7.25)">Math.round(7.25)<br>
+    <input type="radio" name="q9" value="Math.rnd(7.25)">Math.rnd(7.25)<br>
+    <input type="radio" name="q9" value="round(7.25)">round(7.25)<br>
+
+    <p>10) How do you find the number with the highest value of x and y?</p>
+    <input type="radio" name="q10" value="ceil(x, y)">ceil(x, y)<br>
+    <input type="radio" name="q10" value="Math.max(x, y)">Math.max(x, y)<br>
+    <input type="radio" name="q10" value="Math.ceil(x, y)">Math.ceil(x, y)<br>
+    <input type="radio" name="q10" value="top(x, y)">top(x, y)<br><br><br>
+
+
+
+    <input type="submit" value="Submit" onclick="check();">
+   </form>
+
+   <div id="result">
+     <p id="message"></p>
+   </div>
+ </body>
+</html>
